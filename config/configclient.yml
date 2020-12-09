@@ -1,0 +1,9 @@
+server:
+  port: 1122
+spring:
+  application:
+    name: configclient
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
