@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    congfig:
+      name: configclient
+      label: master
+      discovery:
+        enabled: true
+        service-id: configserver
+
+eureka:
+  client:
+    server-url:
+      defaultZone: http://localhost:1111/eureka/
